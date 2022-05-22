@@ -3,9 +3,9 @@
  */
 export default {
   "v-14009baa": () => import("E:\\projects\\blog-demo-main\\README.md"),
+  "v-3b7c90bb": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\README.md"),
   "v-0d7f5703": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\algorithm\\bfc.md"),
   "v-58a784b0": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\api.md"),
-  "v-3b7c90bb": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\README.md"),
   "v-275df203": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\engineering\\bfc.md"),
   "v-27548729": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\html&css\\bfc.md"),
   "v-afe97732": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\bfc.md"),

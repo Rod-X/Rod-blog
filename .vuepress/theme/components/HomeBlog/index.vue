@@ -47,7 +47,7 @@
           <h4 v-if="$tags.list.length !== 0"><reco-icon icon="reco-tag" /> {{$recoLocales.tag}}</h4>
           <TagList @getCurrentTag="getPagesByTags" />
           <h4 v-if="$themeConfig.friendLink && $themeConfig.friendLink.length !== 0"><reco-icon icon="reco-friend" /> {{$recoLocales.friendLink}}</h4>
-          <FriendLink />
+          <FriendLink v-if="$themeConfig.friendLink && $themeConfig.friendLink.length !== 0" />
         </div>
       </div>
     </ModuleTransition>

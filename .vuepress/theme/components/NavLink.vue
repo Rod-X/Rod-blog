@@ -39,13 +39,13 @@ export default defineComponent({
 
     const { item } = toRefs(props)
 
-    const link = computed(() => ensureExt(item.value.link))
+    const link = computed(() => item.value.link&&ensureExt(item.value.link))
 
     const exact = computed(() => {
       if (instance.$site.locales) {
         return Object.keys(instance.$site.locales).some(rootLink => rootLink === link.value)
       }
-      return link.value === '/'
+      return link.value && link.value === '/'
     })
 
     return { link, exact, isExternal, isMailto, isTel }

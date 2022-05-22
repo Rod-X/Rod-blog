@@ -21,6 +21,18 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-3b7c90bb",
+    path: "/docs/theme-reco/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/index.html",
+    redirect: "/docs/theme-reco/"
+  },
+  {
     name: "v-0d7f5703",
     path: "/docs/theme-reco/algorithm/bfc.html",
     component: GlobalLayout,
@@ -35,18 +47,6 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-58a784b0").then(next)
     },
-  },
-  {
-    name: "v-3b7c90bb",
-    path: "/docs/theme-reco/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
-    },
-  },
-  {
-    path: "/docs/theme-reco/index.html",
-    redirect: "/docs/theme-reco/"
   },
   {
     name: "v-275df203",
@@ -134,6 +134,32 @@ export const routes = [
   {
     path: "/timeline/index.html",
     redirect: "/timeline/"
+  },
+  {
+    name: "v-1368f1aa",
+    path: "/tag/tag4/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-1368f1aa").then(next)
+    },
+    meta: {"pid":"tags","id":"tag4"}
+  },
+  {
+    path: "/tag/tag4/index.html",
+    redirect: "/tag/tag4/"
+  },
+  {
+    name: "v-5ce69b59",
+    path: "/categories/category2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-5ce69b59").then(next)
+    },
+    meta: {"pid":"categories","id":"category2"}
+  },
+  {
+    path: "/categories/category2/index.html",
+    redirect: "/categories/category2/"
   },
   {
     path: '*',

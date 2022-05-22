@@ -61,7 +61,26 @@ export const siteData = {
       "title": "bfc",
       "frontmatter": {
         "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z"
+        "date": "2020-05-30T00:00:00.000Z",
+        "publish": false
+      },
+      "regularPath": "/docs/theme-reco/",
+      "relativePath": "docs/theme-reco/README.md",
+      "key": "v-3b7c90bb",
+      "path": "/docs/theme-reco/",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
+    },
+    {
+      "title": "bfc",
+      "frontmatter": {
+        "title": "bfc",
+        "date": "2020-05-30T00:00:00.000Z",
+        "tags": [
+          "tag4"
+        ],
+        "categories": [
+          "category2"
+        ]
       },
       "regularPath": "/docs/theme-reco/algorithm/bfc.html",
       "relativePath": "docs/theme-reco/algorithm/bfc.md",
@@ -80,19 +99,6 @@ export const siteData = {
       "relativePath": "docs/theme-reco/api.md",
       "key": "v-58a784b0",
       "path": "/docs/theme-reco/api.html",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
-    },
-    {
-      "title": "bfc",
-      "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z",
-        "publish": false
-      },
-      "regularPath": "/docs/theme-reco/",
-      "relativePath": "docs/theme-reco/README.md",
-      "key": "v-3b7c90bb",
-      "path": "/docs/theme-reco/",
       "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
@@ -193,6 +199,24 @@ export const siteData = {
       "regularPath": "/timeline/",
       "key": "v-6319eb4e",
       "path": "/timeline/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "tag4 Tags"
+      },
+      "regularPath": "/tag/tag4/",
+      "key": "v-1368f1aa",
+      "path": "/tag/tag4/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "category2 Categories"
+      },
+      "regularPath": "/categories/category2/",
+      "key": "v-5ce69b59",
+      "path": "/categories/category2/"
     }
   ],
   "themeConfig": {
