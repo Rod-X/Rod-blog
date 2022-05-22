@@ -1,1 +1,1 @@
-export { default } from "E:\\projects\\blog-demo-main\\node_modules\\vuepress-theme-reco\\enhanceApp.js"
+export { default } from "E:\\projects\\blog-demo-main\\.vuepress\\theme\\enhanceApp.js"

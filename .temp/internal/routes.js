@@ -21,18 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-3b7c90bb",
-    path: "/docs/theme-reco/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
-    },
-  },
-  {
-    path: "/docs/theme-reco/index.html",
-    redirect: "/docs/theme-reco/"
-  },
-  {
     name: "v-0d7f5703",
     path: "/docs/theme-reco/algorithm/bfc.html",
     component: GlobalLayout,
@@ -47,6 +35,18 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-58a784b0").then(next)
     },
+  },
+  {
+    name: "v-3b7c90bb",
+    path: "/docs/theme-reco/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/index.html",
+    redirect: "/docs/theme-reco/"
   },
   {
     name: "v-275df203",
@@ -95,6 +95,45 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-54eec7e3").then(next)
     },
+  },
+  {
+    name: "v-b1564aac",
+    path: "/tag/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
+    },
+    meta: {"pid":"tags","id":"tags"}
+  },
+  {
+    path: "/tag/index.html",
+    redirect: "/tag/"
+  },
+  {
+    name: "v-ef9325c4",
+    path: "/categories/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
+    },
+    meta: {"pid":"categories","id":"categories"}
+  },
+  {
+    path: "/categories/index.html",
+    redirect: "/categories/"
+  },
+  {
+    name: "v-6319eb4e",
+    path: "/timeline/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
+    },
+    meta: {"pid":"timeline","id":"timeline"}
+  },
+  {
+    path: "/timeline/index.html",
+    redirect: "/timeline/"
   },
   {
     path: '*',

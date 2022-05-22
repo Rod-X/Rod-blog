@@ -54,19 +54,8 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-14009baa",
-      "path": "/"
-    },
-    {
-      "title": "bfc",
-      "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z",
-        "publish": false
-      },
-      "regularPath": "/docs/theme-reco/",
-      "relativePath": "docs/theme-reco/README.md",
-      "key": "v-3b7c90bb",
-      "path": "/docs/theme-reco/"
+      "path": "/",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -77,7 +66,8 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/algorithm/bfc.html",
       "relativePath": "docs/theme-reco/algorithm/bfc.md",
       "key": "v-0d7f5703",
-      "path": "/docs/theme-reco/algorithm/bfc.html"
+      "path": "/docs/theme-reco/algorithm/bfc.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -89,7 +79,21 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/api.html",
       "relativePath": "docs/theme-reco/api.md",
       "key": "v-58a784b0",
-      "path": "/docs/theme-reco/api.html"
+      "path": "/docs/theme-reco/api.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
+    },
+    {
+      "title": "bfc",
+      "frontmatter": {
+        "title": "bfc",
+        "date": "2020-05-30T00:00:00.000Z",
+        "publish": false
+      },
+      "regularPath": "/docs/theme-reco/",
+      "relativePath": "docs/theme-reco/README.md",
+      "key": "v-3b7c90bb",
+      "path": "/docs/theme-reco/",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -100,7 +104,8 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/engineering/bfc.html",
       "relativePath": "docs/theme-reco/engineering/bfc.md",
       "key": "v-275df203",
-      "path": "/docs/theme-reco/engineering/bfc.html"
+      "path": "/docs/theme-reco/engineering/bfc.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -111,7 +116,8 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/html&css/bfc.html",
       "relativePath": "docs/theme-reco/html&css/bfc.md",
       "key": "v-27548729",
-      "path": "/docs/theme-reco/html&css/bfc.html"
+      "path": "/docs/theme-reco/html&css/bfc.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -122,7 +128,8 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/js/bfc.html",
       "relativePath": "docs/theme-reco/js/bfc.md",
       "key": "v-afe97732",
-      "path": "/docs/theme-reco/js/bfc.html"
+      "path": "/docs/theme-reco/js/bfc.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -133,7 +140,8 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/more/bfc.html",
       "relativePath": "docs/theme-reco/more/bfc.md",
       "key": "v-77b04362",
-      "path": "/docs/theme-reco/more/bfc.html"
+      "path": "/docs/theme-reco/more/bfc.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -144,7 +152,8 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/network/bfc.html",
       "relativePath": "docs/theme-reco/network/bfc.md",
       "key": "v-6feaaa63",
-      "path": "/docs/theme-reco/network/bfc.html"
+      "path": "/docs/theme-reco/network/bfc.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -155,7 +164,35 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/vue/bfc.html",
       "relativePath": "docs/theme-reco/vue/bfc.md",
       "key": "v-54eec7e3",
-      "path": "/docs/theme-reco/vue/bfc.html"
+      "path": "/docs/theme-reco/vue/bfc.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tags",
+        "title": "Tags"
+      },
+      "regularPath": "/tag/",
+      "key": "v-b1564aac",
+      "path": "/tag/"
+    },
+    {
+      "frontmatter": {
+        "layout": "FrontmatterKey",
+        "title": "Categories"
+      },
+      "regularPath": "/categories/",
+      "key": "v-ef9325c4",
+      "path": "/categories/"
+    },
+    {
+      "frontmatter": {
+        "layout": "TimeLines",
+        "title": "Timeline"
+      },
+      "regularPath": "/timeline/",
+      "key": "v-6319eb4e",
+      "path": "/timeline/"
     }
   ],
   "themeConfig": {
