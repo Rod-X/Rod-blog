@@ -1,6 +1,7 @@
 module.exports = {
   "title": "Rod",
   "description": "",
+  // "base":'./',
   "dest": "public",
   "head": [
     [
