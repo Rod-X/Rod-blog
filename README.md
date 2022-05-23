@@ -2,7 +2,7 @@
 home: true
 heroText: 关于我
 tagline: 冒泡工程师，业余王者老玩家，做饭一般的厨子
-# heroImage: /hero1.png
+# heroImage: /hero1.jpg
 # heroImageStyle: {
 #   maxWidth: '600px',
 #   width: '100%',
@@ -11,7 +11,7 @@ tagline: 冒泡工程师，业余王者老玩家，做饭一般的厨子
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
-bgImage: /hero1.jpeg
+bgImage: /hero1.jpg
 bgImageStyle: {
   height: '520px',
   color : '#fff'

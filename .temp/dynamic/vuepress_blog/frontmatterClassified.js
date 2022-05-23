@@ -12,6 +12,14 @@ export default {
         "v-275df203"
       ]
     },
+    "tag2": {
+      "key": "tag2",
+      "scope": "tags",
+      "path": "/tag/tag2/",
+      "pageKeys": [
+        "v-27548729"
+      ]
+    },
     "JS": {
       "key": "JS",
       "scope": "tags",
@@ -48,14 +56,6 @@ export default {
         "v-77d0bcc7"
       ]
     },
-    "tag2": {
-      "key": "tag2",
-      "scope": "tags",
-      "path": "/tag/tag2/",
-      "pageKeys": [
-        "v-27548729"
-      ]
-    },
     "闭包": {
       "key": "闭包",
       "scope": "tags",
@@ -75,6 +75,14 @@ export default {
         "v-275df203"
       ]
     },
+    "category3": {
+      "key": "category3",
+      "scope": "categories",
+      "path": "/categories/category3/",
+      "pageKeys": [
+        "v-27548729"
+      ]
+    },
     "JS": {
       "key": "JS",
       "scope": "categories",
@@ -91,14 +99,6 @@ export default {
         "v-0aeba294",
         "v-1a8a53ac",
         "v-77d0bcc7"
-      ]
-    },
-    "category3": {
-      "key": "category3",
-      "scope": "categories",
-      "path": "/categories/category3/",
-      "pageKeys": [
-        "v-27548729"
       ]
     }
   },

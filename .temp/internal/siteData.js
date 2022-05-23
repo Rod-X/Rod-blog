@@ -28,7 +28,7 @@ export const siteData = {
         "home": true,
         "heroText": "关于我",
         "tagline": "冒泡工程师，业余王者老玩家，做饭一般的厨子",
-        "bgImage": "/hero1.jpeg",
+        "bgImage": "/hero1.jpg",
         "bgImageStyle": {
           "height": "520px",
           "color": "#fff"
@@ -93,6 +93,24 @@ export const siteData = {
       "frontmatter": {
         "title": "bfc",
         "date": "2020-05-30T00:00:00.000Z",
+        "tags": [
+          "tag4"
+        ],
+        "categories": [
+          "category2"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/engineering/bfc.html",
+      "relativePath": "docs/theme-reco/engineering/bfc.md",
+      "key": "v-275df203",
+      "path": "/docs/theme-reco/engineering/bfc.html",
+      "lastUpdated": "5/22/2022, 8:39:26 PM"
+    },
+    {
+      "title": "bfc",
+      "frontmatter": {
+        "title": "bfc",
+        "date": "2020-05-30T00:00:00.000Z",
         "publish": false
       },
       "regularPath": "/docs/theme-reco/api.html",
@@ -107,16 +125,16 @@ export const siteData = {
         "title": "bfc",
         "date": "2020-05-30T00:00:00.000Z",
         "tags": [
-          "tag4"
+          "tag2"
         ],
         "categories": [
-          "category2"
+          "category3"
         ]
       },
-      "regularPath": "/docs/theme-reco/engineering/bfc.html",
-      "relativePath": "docs/theme-reco/engineering/bfc.md",
-      "key": "v-275df203",
-      "path": "/docs/theme-reco/engineering/bfc.html",
+      "regularPath": "/docs/theme-reco/html&css/bfc.html",
+      "relativePath": "docs/theme-reco/html&css/bfc.md",
+      "key": "v-27548729",
+      "path": "/docs/theme-reco/html&css/bfc.html",
       "lastUpdated": "5/22/2022, 8:39:26 PM"
     },
     {
@@ -179,24 +197,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "5/23/2022, 12:37:02 PM"
-    },
-    {
-      "title": "bfc",
-      "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z",
-        "tags": [
-          "tag2"
-        ],
-        "categories": [
-          "category3"
-        ]
-      },
-      "regularPath": "/docs/theme-reco/html&css/bfc.html",
-      "relativePath": "docs/theme-reco/html&css/bfc.md",
-      "key": "v-27548729",
-      "path": "/docs/theme-reco/html&css/bfc.html",
-      "lastUpdated": "5/22/2022, 8:39:26 PM"
     },
     {
       "title": "PointFree",
@@ -615,6 +615,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "tag2 Tags"
+      },
+      "regularPath": "/tag/tag2/",
+      "key": "v-1368f226",
+      "path": "/tag/tag2/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "JS Tags"
       },
       "regularPath": "/tag/JS/",
@@ -629,15 +638,6 @@ export const siteData = {
       "regularPath": "/tag/%E5%87%BD%E6%95%B0/",
       "key": "v-5c9b2e55",
       "path": "/tag/函数/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "tag2 Tags"
-      },
-      "regularPath": "/tag/tag2/",
-      "key": "v-1368f226",
-      "path": "/tag/tag2/"
     },
     {
       "frontmatter": {
@@ -660,20 +660,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "JS Categories"
-      },
-      "regularPath": "/categories/JS/",
-      "key": "v-35a53628",
-      "path": "/categories/JS/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "category3 Categories"
       },
       "regularPath": "/categories/category3/",
       "key": "v-5ce69b78",
       "path": "/categories/category3/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "JS Categories"
+      },
+      "regularPath": "/categories/JS/",
+      "key": "v-35a53628",
+      "path": "/categories/JS/"
     },
     {
       "frontmatter": {
@@ -739,118 +739,116 @@ export const siteData = {
     ],
     "sidebar": {
       "/docs/theme-reco/": [
-        [
-          {
-            "title": "HTML&CSS",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "BFC及其应用",
-                "path": "/docs/theme-reco/html&css/bfc"
-              }
-            ]
-          },
-          {
-            "title": "JS",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "闭包",
-                "path": "/docs/theme-reco/js/闭包"
-              },
-              {
-                "title": "纯函数",
-                "path": "/docs/theme-reco/js/纯函数"
-              },
-              {
-                "title": "高阶函数",
-                "path": "/docs/theme-reco/js/高阶函数"
-              },
-              {
-                "title": "函数式编程",
-                "path": "/docs/theme-reco/js/函数式编程"
-              },
-              {
-                "title": "函数是一等公民",
-                "path": "/docs/theme-reco/js/函数是一等公民"
-              },
-              {
-                "title": "函数组合",
-                "path": "/docs/theme-reco/js/函数组合"
-              },
-              {
-                "title": "柯里化",
-                "path": "/docs/theme-reco/js/柯里化"
-              },
-              {
-                "title": "异步编程",
-                "path": "/docs/theme-reco/js/异步编程"
-              },
-              {
-                "title": "Functor",
-                "path": "/docs/theme-reco/js/Functor"
-              },
-              {
-                "title": "PointFree",
-                "path": "/docs/theme-reco/js/PointFree"
-              },
-              {
-                "title": "Promise",
-                "path": "/docs/theme-reco/js/Promise"
-              }
-            ]
-          },
-          {
-            "title": "Vue",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "jsBFC及其应用",
-                "path": "/docs/theme-reco/vue/bfc"
-              }
-            ]
-          },
-          {
-            "title": "前端工程化",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "jsBFC及其应用",
-                "path": "/docs/theme-reco/engineering/bfc"
-              }
-            ]
-          },
-          {
-            "title": "网络知识",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "jsBFC及其应用",
-                "path": "/docs/theme-reco/network/bfc"
-              }
-            ]
-          },
-          {
-            "title": "算法",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "jsBFC及其应用",
-                "path": "/docs/theme-reco/algorithm/bfc"
-              }
-            ]
-          },
-          {
-            "title": "其他",
-            "collapsable": true,
-            "children": [
-              {
-                "title": "jsBFC及其应用",
-                "path": "/docs/theme-reco/more/bfc"
-              }
-            ]
-          }
-        ]
+        {
+          "title": "HTML&CSS",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "BFC及其应用",
+              "path": "/docs/theme-reco/html&css/bfc"
+            }
+          ]
+        },
+        {
+          "title": "JS",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "闭包",
+              "path": "/docs/theme-reco/js/闭包"
+            },
+            {
+              "title": "纯函数",
+              "path": "/docs/theme-reco/js/纯函数"
+            },
+            {
+              "title": "高阶函数",
+              "path": "/docs/theme-reco/js/高阶函数"
+            },
+            {
+              "title": "函数式编程",
+              "path": "/docs/theme-reco/js/函数式编程"
+            },
+            {
+              "title": "函数是一等公民",
+              "path": "/docs/theme-reco/js/函数是一等公民"
+            },
+            {
+              "title": "函数组合",
+              "path": "/docs/theme-reco/js/函数组合"
+            },
+            {
+              "title": "柯里化",
+              "path": "/docs/theme-reco/js/柯里化"
+            },
+            {
+              "title": "异步编程",
+              "path": "/docs/theme-reco/js/异步编程"
+            },
+            {
+              "title": "Functor",
+              "path": "/docs/theme-reco/js/Functor"
+            },
+            {
+              "title": "PointFree",
+              "path": "/docs/theme-reco/js/PointFree"
+            },
+            {
+              "title": "Promise",
+              "path": "/docs/theme-reco/js/Promise"
+            }
+          ]
+        },
+        {
+          "title": "Vue",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "jsBFC及其应用",
+              "path": "/docs/theme-reco/vue/bfc"
+            }
+          ]
+        },
+        {
+          "title": "前端工程化",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "jsBFC及其应用",
+              "path": "/docs/theme-reco/engineering/bfc"
+            }
+          ]
+        },
+        {
+          "title": "网络知识",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "jsBFC及其应用",
+              "path": "/docs/theme-reco/network/bfc"
+            }
+          ]
+        },
+        {
+          "title": "算法",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "jsBFC及其应用",
+              "path": "/docs/theme-reco/algorithm/bfc"
+            }
+          ]
+        },
+        {
+          "title": "其他",
+          "collapsable": true,
+          "children": [
+            {
+              "title": "jsBFC及其应用",
+              "path": "/docs/theme-reco/more/bfc"
+            }
+          ]
+        }
       ]
     },
     "type": "blog",
@@ -865,12 +863,12 @@ export const siteData = {
       }
     },
     "friendLink": false,
-    "logo": "/logo.png",
+    "logo": "/logo.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "Rod",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/logo.jpg",
     "record": "",
     "startYear": "2019"
   }

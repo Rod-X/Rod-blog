@@ -41,14 +41,6 @@ export const routes = [
     },
   },
   {
-    name: "v-58a784b0",
-    path: "/docs/theme-reco/api.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-58a784b0").then(next)
-    },
-  },
-  {
     name: "v-275df203",
     path: "/docs/theme-reco/engineering/bfc.html",
     component: GlobalLayout,
@@ -57,11 +49,11 @@ export const routes = [
     },
   },
   {
-    name: "v-3547e182",
-    path: "/docs/theme-reco/js/Functor.html",
+    name: "v-58a784b0",
+    path: "/docs/theme-reco/api.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3547e182").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-58a784b0").then(next)
     },
   },
   {
@@ -70,6 +62,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-27548729").then(next)
+    },
+  },
+  {
+    name: "v-3547e182",
+    path: "/docs/theme-reco/js/Functor.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3547e182").then(next)
     },
   },
   {
@@ -293,6 +293,19 @@ export const routes = [
     redirect: "/tag/tag4/"
   },
   {
+    name: "v-1368f226",
+    path: "/tag/tag2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-1368f226").then(next)
+    },
+    meta: {"pid":"tags","id":"tag2"}
+  },
+  {
+    path: "/tag/tag2/index.html",
+    redirect: "/tag/tag2/"
+  },
+  {
     name: "v-e8d965c8",
     path: "/tag/JS/",
     component: GlobalLayout,
@@ -317,19 +330,6 @@ export const routes = [
   {
     path: "/tag/函数/index.html",
     redirect: "/tag/函数/"
-  },
-  {
-    name: "v-1368f226",
-    path: "/tag/tag2/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-1368f226").then(next)
-    },
-    meta: {"pid":"tags","id":"tag2"}
-  },
-  {
-    path: "/tag/tag2/index.html",
-    redirect: "/tag/tag2/"
   },
   {
     name: "v-eec8ec48",
@@ -358,19 +358,6 @@ export const routes = [
     redirect: "/categories/category2/"
   },
   {
-    name: "v-35a53628",
-    path: "/categories/JS/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-35a53628").then(next)
-    },
-    meta: {"pid":"categories","id":"JS"}
-  },
-  {
-    path: "/categories/JS/index.html",
-    redirect: "/categories/JS/"
-  },
-  {
     name: "v-5ce69b78",
     path: "/categories/category3/",
     component: GlobalLayout,
@@ -382,6 +369,19 @@ export const routes = [
   {
     path: "/categories/category3/index.html",
     redirect: "/categories/category3/"
+  },
+  {
+    name: "v-35a53628",
+    path: "/categories/JS/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-35a53628").then(next)
+    },
+    meta: {"pid":"categories","id":"JS"}
+  },
+  {
+    path: "/categories/JS/index.html",
+    redirect: "/categories/JS/"
   },
   {
     name: "v-7f71ddbe",

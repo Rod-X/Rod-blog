@@ -181,12 +181,12 @@ module.exports = {
       }
     },
     "friendLink": false,
-    "logo": "/logo.png",
+    "logo": "/logo.jpg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "Rod",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/logo.jpg",
     "record": "",
     "startYear": "2019"
   },
