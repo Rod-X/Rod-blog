@@ -53,22 +53,9 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-14009baa",
+      "key": "v-0278b6b2",
       "path": "/",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
-    },
-    {
-      "title": "bfc",
-      "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z",
-        "publish": false
-      },
-      "regularPath": "/docs/theme-reco/",
-      "relativePath": "docs/theme-reco/README.md",
-      "key": "v-3b7c90bb",
-      "path": "/docs/theme-reco/",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
+      "lastUpdated": "5/23/2022, 1:23:17 PM"
     },
     {
       "title": "bfc",
@@ -84,9 +71,35 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/algorithm/bfc.html",
       "relativePath": "docs/theme-reco/algorithm/bfc.md",
-      "key": "v-0d7f5703",
+      "key": "v-04ced807",
       "path": "/docs/theme-reco/algorithm/bfc.html",
       "lastUpdated": "5/22/2022, 8:39:26 PM"
+    },
+    {
+      "title": "bfc",
+      "frontmatter": {
+        "title": "bfc",
+        "date": "2020-05-30T00:00:00.000Z",
+        "publish": false
+      },
+      "regularPath": "/docs/theme-reco/api.html",
+      "relativePath": "docs/theme-reco/api.md",
+      "key": "v-4c52a098",
+      "path": "/docs/theme-reco/api.html",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
+    },
+    {
+      "title": "bfc",
+      "frontmatter": {
+        "title": "bfc",
+        "date": "2020-05-30T00:00:00.000Z",
+        "publish": false
+      },
+      "regularPath": "/docs/theme-reco/",
+      "relativePath": "docs/theme-reco/README.md",
+      "key": "v-5c779337",
+      "path": "/docs/theme-reco/",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "bfc",
@@ -102,40 +115,160 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/engineering/bfc.html",
       "relativePath": "docs/theme-reco/engineering/bfc.md",
-      "key": "v-275df203",
+      "key": "v-0d855df2",
       "path": "/docs/theme-reco/engineering/bfc.html",
       "lastUpdated": "5/22/2022, 8:39:26 PM"
     },
     {
-      "title": "bfc",
+      "title": "BFC 及其应用",
       "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z",
-        "publish": false
-      },
-      "regularPath": "/docs/theme-reco/api.html",
-      "relativePath": "docs/theme-reco/api.md",
-      "key": "v-58a784b0",
-      "path": "/docs/theme-reco/api.html",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
-    },
-    {
-      "title": "bfc",
-      "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z",
+        "title": "BFC 及其应用",
+        "date": "2020-05-18T00:00:00.000Z",
         "tags": [
-          "tag2"
+          "CSS",
+          "HTML",
+          "BFC"
         ],
         "categories": [
-          "category3"
+          "CSS",
+          "HTML"
         ]
       },
       "regularPath": "/docs/theme-reco/html&css/bfc.html",
       "relativePath": "docs/theme-reco/html&css/bfc.md",
-      "key": "v-27548729",
+      "key": "v-2fd8792d",
       "path": "/docs/theme-reco/html&css/bfc.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "是什么：",
+          "slug": "是什么"
+        },
+        {
+          "level": 2,
+          "title": "怎么触发：",
+          "slug": "怎么触发"
+        },
+        {
+          "level": 2,
+          "title": "特性：",
+          "slug": "特性"
+        },
+        {
+          "level": 2,
+          "title": "解决了什么",
+          "slug": "解决了什么"
+        }
+      ],
       "lastUpdated": "5/22/2022, 8:39:26 PM"
+    },
+    {
+      "title": "如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性",
+      "frontmatter": {
+        "title": "如何用 css 或 js 实现多行文本溢出省略效果，考虑兼容性",
+        "date": "2020-05-18T00:00:00.000Z",
+        "tags": [
+          "CSS",
+          "HTML"
+        ],
+        "categories": [
+          "CSS",
+          "HTML"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/html&css/%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E7%9C%81%E7%95%A5%E6%95%88%E6%9E%9C.html",
+      "relativePath": "docs/theme-reco/html&css/文本溢出省略效果.md",
+      "key": "v-3b5f93d0",
+      "path": "/docs/theme-reco/html&css/%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E7%9C%81%E7%95%A5%E6%95%88%E6%9E%9C.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "css实现",
+          "slug": "css实现"
+        },
+        {
+          "level": 2,
+          "title": "js实现",
+          "slug": "js实现"
+        },
+        {
+          "level": 2,
+          "title": "Eltable 中 textLimit限制超过长度的文本提示框",
+          "slug": "eltable-中-textlimit限制超过长度的文本提示框"
+        }
+      ]
+    },
+    {
+      "title": "隐藏元素方式的优略",
+      "frontmatter": {
+        "title": "隐藏元素方式的优略",
+        "date": "2020-05-18T00:00:00.000Z",
+        "tags": [
+          "CSS",
+          "HTML"
+        ],
+        "categories": [
+          "CSS",
+          "HTML"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/html&css/opacity&visibilty&display.html",
+      "relativePath": "docs/theme-reco/html&css/opacity&visibilty&display.md",
+      "key": "v-e2c624b2",
+      "path": "/docs/theme-reco/html&css/opacity&visibilty&display.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "display：none",
+          "slug": "display-none"
+        },
+        {
+          "level": 2,
+          "title": "visibility：hidden",
+          "slug": "visibility-hidden"
+        },
+        {
+          "level": 2,
+          "title": "opacity:0",
+          "slug": "opacity-0"
+        }
+      ]
+    },
+    {
+      "title": "水平垂直居中",
+      "frontmatter": {
+        "title": "水平垂直居中",
+        "date": "2020-05-18T00:00:00.000Z",
+        "tags": [
+          "CSS",
+          "HTML"
+        ],
+        "categories": [
+          "CSS",
+          "HTML"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/html&css/%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD.html",
+      "relativePath": "docs/theme-reco/html&css/水平垂直居中.md",
+      "key": "v-1ba34dca",
+      "path": "/docs/theme-reco/html&css/%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "postion方法",
+          "slug": "postion方法"
+        },
+        {
+          "level": 2,
+          "title": "flex",
+          "slug": "flex"
+        },
+        {
+          "level": 2,
+          "title": "position方法配置transform",
+          "slug": "position方法配置transform"
+        }
+      ]
     },
     {
       "title": "Functor",
@@ -152,7 +285,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/Functor.html",
       "relativePath": "docs/theme-reco/js/Functor.md",
-      "key": "v-3547e182",
+      "key": "v-6a91a343",
       "path": "/docs/theme-reco/js/Functor.html",
       "headers": [
         {
@@ -213,7 +346,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/PointFree.html",
       "relativePath": "docs/theme-reco/js/PointFree.md",
-      "key": "v-f1c4aba6",
+      "key": "v-e0bcc79e",
       "path": "/docs/theme-reco/js/PointFree.html",
       "headers": [
         {
@@ -239,7 +372,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/Promise.html",
       "relativePath": "docs/theme-reco/js/Promise.md",
-      "key": "v-f12dd5a2",
+      "key": "v-0c9ea933",
       "path": "/docs/theme-reco/js/Promise.html",
       "headers": [
         {
@@ -295,7 +428,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html",
       "relativePath": "docs/theme-reco/js/函数式编程.md",
-      "key": "v-563da1cb",
+      "key": "v-79d883cf",
       "path": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html",
       "headers": [
         {
@@ -331,7 +464,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html",
       "relativePath": "docs/theme-reco/js/函数是一等公民.md",
-      "key": "v-62e246ea",
+      "key": "v-1ec80224",
       "path": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html",
       "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
@@ -350,7 +483,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html",
       "relativePath": "docs/theme-reco/js/函数组合.md",
-      "key": "v-8b2e7b8e",
+      "key": "v-3a51993d",
       "path": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html",
       "headers": [
         {
@@ -381,7 +514,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html",
       "relativePath": "docs/theme-reco/js/异步编程.md",
-      "key": "v-5b921ff6",
+      "key": "v-521fc709",
       "path": "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html",
       "headers": [
         {
@@ -437,7 +570,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
       "relativePath": "docs/theme-reco/js/柯里化.md",
-      "key": "v-780704bc",
+      "key": "v-6a3c10c0",
       "path": "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
       "headers": [
         {
@@ -468,7 +601,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html",
       "relativePath": "docs/theme-reco/js/纯函数.md",
-      "key": "v-0aeba294",
+      "key": "v-26818a8c",
       "path": "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html",
       "headers": [
         {
@@ -500,7 +633,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html",
       "relativePath": "docs/theme-reco/js/闭包.md",
-      "key": "v-1a8a53ac",
+      "key": "v-11d9d4b0",
       "path": "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html",
       "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
@@ -519,7 +652,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html",
       "relativePath": "docs/theme-reco/js/高阶函数.md",
-      "key": "v-77d0bcc7",
+      "key": "v-108cd86a",
       "path": "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html",
       "headers": [
         {
@@ -548,7 +681,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/more/bfc.html",
       "relativePath": "docs/theme-reco/more/bfc.md",
-      "key": "v-77b04362",
+      "key": "v-d79fd75a",
       "path": "/docs/theme-reco/more/bfc.html",
       "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
@@ -560,7 +693,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/network/bfc.html",
       "relativePath": "docs/theme-reco/network/bfc.md",
-      "key": "v-6feaaa63",
+      "key": "v-7e0b4d67",
       "path": "/docs/theme-reco/network/bfc.html",
       "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
@@ -572,7 +705,7 @@ export const siteData = {
       },
       "regularPath": "/docs/theme-reco/vue/bfc.html",
       "relativePath": "docs/theme-reco/vue/bfc.md",
-      "key": "v-54eec7e3",
+      "key": "v-06d4aee7",
       "path": "/docs/theme-reco/vue/bfc.html",
       "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
@@ -615,11 +748,29 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "tag2 Tags"
+        "title": "CSS Tags"
       },
-      "regularPath": "/tag/tag2/",
-      "key": "v-1368f226",
-      "path": "/tag/tag2/"
+      "regularPath": "/tag/CSS/",
+      "key": "v-3259a754",
+      "path": "/tag/CSS/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "HTML Tags"
+      },
+      "regularPath": "/tag/HTML/",
+      "key": "v-184d950c",
+      "path": "/tag/HTML/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "BFC Tags"
+      },
+      "regularPath": "/tag/BFC/",
+      "key": "v-325af58c",
+      "path": "/tag/BFC/"
     },
     {
       "frontmatter": {
@@ -660,11 +811,20 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "category3 Categories"
+        "title": "CSS Categories"
       },
-      "regularPath": "/categories/category3/",
-      "key": "v-5ce69b78",
-      "path": "/categories/category3/"
+      "regularPath": "/categories/CSS/",
+      "key": "v-7efe64ca",
+      "path": "/categories/CSS/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "HTML Categories"
+      },
+      "regularPath": "/categories/HTML/",
+      "key": "v-61150b86",
+      "path": "/categories/HTML/"
     },
     {
       "frontmatter": {
@@ -746,6 +906,18 @@ export const siteData = {
             {
               "title": "BFC及其应用",
               "path": "/docs/theme-reco/html&css/bfc"
+            },
+            {
+              "title": "文本溢出省略效果",
+              "path": "/docs/theme-reco/html&css/文本溢出省略效果"
+            },
+            {
+              "title": "水平垂直居中",
+              "path": "/docs/theme-reco/html&css/水平垂直居中"
+            },
+            {
+              "title": "隐藏元素方式的优略",
+              "path": "/docs/theme-reco/html&css/opacity&visibilty&display"
             }
           ]
         },

@@ -8,16 +8,38 @@ export default {
       "scope": "tags",
       "path": "/tag/tag4/",
       "pageKeys": [
-        "v-0d7f5703",
-        "v-275df203"
+        "v-04ced807",
+        "v-0d855df2"
       ]
     },
-    "tag2": {
-      "key": "tag2",
+    "CSS": {
+      "key": "CSS",
       "scope": "tags",
-      "path": "/tag/tag2/",
+      "path": "/tag/CSS/",
       "pageKeys": [
-        "v-27548729"
+        "v-2fd8792d",
+        "v-3b5f93d0",
+        "v-e2c624b2",
+        "v-1ba34dca"
+      ]
+    },
+    "HTML": {
+      "key": "HTML",
+      "scope": "tags",
+      "path": "/tag/HTML/",
+      "pageKeys": [
+        "v-2fd8792d",
+        "v-3b5f93d0",
+        "v-e2c624b2",
+        "v-1ba34dca"
+      ]
+    },
+    "BFC": {
+      "key": "BFC",
+      "scope": "tags",
+      "path": "/tag/BFC/",
+      "pageKeys": [
+        "v-2fd8792d"
       ]
     },
     "JS": {
@@ -25,17 +47,17 @@ export default {
       "scope": "tags",
       "path": "/tag/JS/",
       "pageKeys": [
-        "v-3547e182",
-        "v-f1c4aba6",
-        "v-f12dd5a2",
-        "v-563da1cb",
-        "v-62e246ea",
-        "v-8b2e7b8e",
-        "v-5b921ff6",
-        "v-780704bc",
-        "v-0aeba294",
-        "v-1a8a53ac",
-        "v-77d0bcc7"
+        "v-6a91a343",
+        "v-e0bcc79e",
+        "v-0c9ea933",
+        "v-79d883cf",
+        "v-1ec80224",
+        "v-3a51993d",
+        "v-521fc709",
+        "v-6a3c10c0",
+        "v-26818a8c",
+        "v-11d9d4b0",
+        "v-108cd86a"
       ]
     },
     "函数": {
@@ -43,17 +65,17 @@ export default {
       "scope": "tags",
       "path": "/tag/函数/",
       "pageKeys": [
-        "v-3547e182",
-        "v-f1c4aba6",
-        "v-f12dd5a2",
-        "v-563da1cb",
-        "v-62e246ea",
-        "v-8b2e7b8e",
-        "v-5b921ff6",
-        "v-780704bc",
-        "v-0aeba294",
-        "v-1a8a53ac",
-        "v-77d0bcc7"
+        "v-6a91a343",
+        "v-e0bcc79e",
+        "v-0c9ea933",
+        "v-79d883cf",
+        "v-1ec80224",
+        "v-3a51993d",
+        "v-521fc709",
+        "v-6a3c10c0",
+        "v-26818a8c",
+        "v-11d9d4b0",
+        "v-108cd86a"
       ]
     },
     "闭包": {
@@ -61,7 +83,7 @@ export default {
       "scope": "tags",
       "path": "/tag/闭包/",
       "pageKeys": [
-        "v-1a8a53ac"
+        "v-11d9d4b0"
       ]
     }
   },
@@ -71,16 +93,30 @@ export default {
       "scope": "categories",
       "path": "/categories/category2/",
       "pageKeys": [
-        "v-0d7f5703",
-        "v-275df203"
+        "v-04ced807",
+        "v-0d855df2"
       ]
     },
-    "category3": {
-      "key": "category3",
+    "CSS": {
+      "key": "CSS",
       "scope": "categories",
-      "path": "/categories/category3/",
+      "path": "/categories/CSS/",
       "pageKeys": [
-        "v-27548729"
+        "v-2fd8792d",
+        "v-3b5f93d0",
+        "v-e2c624b2",
+        "v-1ba34dca"
+      ]
+    },
+    "HTML": {
+      "key": "HTML",
+      "scope": "categories",
+      "path": "/categories/HTML/",
+      "pageKeys": [
+        "v-2fd8792d",
+        "v-3b5f93d0",
+        "v-e2c624b2",
+        "v-1ba34dca"
       ]
     },
     "JS": {
@@ -88,17 +124,17 @@ export default {
       "scope": "categories",
       "path": "/categories/JS/",
       "pageKeys": [
-        "v-3547e182",
-        "v-f1c4aba6",
-        "v-f12dd5a2",
-        "v-563da1cb",
-        "v-62e246ea",
-        "v-8b2e7b8e",
-        "v-5b921ff6",
-        "v-780704bc",
-        "v-0aeba294",
-        "v-1a8a53ac",
-        "v-77d0bcc7"
+        "v-6a91a343",
+        "v-e0bcc79e",
+        "v-0c9ea933",
+        "v-79d883cf",
+        "v-1ec80224",
+        "v-3a51993d",
+        "v-521fc709",
+        "v-6a3c10c0",
+        "v-26818a8c",
+        "v-11d9d4b0",
+        "v-108cd86a"
       ]
     }
   },

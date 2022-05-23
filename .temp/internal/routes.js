@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "E:\\projects\\blog-demo-main\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "E:\\projects\\Rodx-blog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-14009baa",
+    name: "v-0278b6b2",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-14009baa").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0278b6b2").then(next)
     },
   },
   {
@@ -21,11 +21,27 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-3b7c90bb",
+    name: "v-04ced807",
+    path: "/docs/theme-reco/algorithm/bfc.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-04ced807").then(next)
+    },
+  },
+  {
+    name: "v-4c52a098",
+    path: "/docs/theme-reco/api.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4c52a098").then(next)
+    },
+  },
+  {
+    name: "v-5c779337",
     path: "/docs/theme-reco/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5c779337").then(next)
     },
   },
   {
@@ -33,67 +49,91 @@ export const routes = [
     redirect: "/docs/theme-reco/"
   },
   {
-    name: "v-0d7f5703",
-    path: "/docs/theme-reco/algorithm/bfc.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0d7f5703").then(next)
-    },
-  },
-  {
-    name: "v-275df203",
+    name: "v-0d855df2",
     path: "/docs/theme-reco/engineering/bfc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-275df203").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0d855df2").then(next)
     },
   },
   {
-    name: "v-58a784b0",
-    path: "/docs/theme-reco/api.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-58a784b0").then(next)
-    },
-  },
-  {
-    name: "v-27548729",
+    name: "v-2fd8792d",
     path: "/docs/theme-reco/html&css/bfc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-27548729").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2fd8792d").then(next)
     },
   },
   {
-    name: "v-3547e182",
+    name: "v-3b5f93d0",
+    path: "/docs/theme-reco/html&css/%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E7%9C%81%E7%95%A5%E6%95%88%E6%9E%9C.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b5f93d0").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/html&css/文本溢出省略效果.html",
+    redirect: "/docs/theme-reco/html&css/%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E7%9C%81%E7%95%A5%E6%95%88%E6%9E%9C.html"
+  },
+  {
+    path: "/docs/theme-reco/html&css/文本溢出省略效果.html",
+    redirect: "/docs/theme-reco/html&css/%E6%96%87%E6%9C%AC%E6%BA%A2%E5%87%BA%E7%9C%81%E7%95%A5%E6%95%88%E6%9E%9C.html"
+  },
+  {
+    name: "v-e2c624b2",
+    path: "/docs/theme-reco/html&css/opacity&visibilty&display.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e2c624b2").then(next)
+    },
+  },
+  {
+    name: "v-1ba34dca",
+    path: "/docs/theme-reco/html&css/%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1ba34dca").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/html&css/水平垂直居中.html",
+    redirect: "/docs/theme-reco/html&css/%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD.html"
+  },
+  {
+    path: "/docs/theme-reco/html&css/水平垂直居中.html",
+    redirect: "/docs/theme-reco/html&css/%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD.html"
+  },
+  {
+    name: "v-6a91a343",
     path: "/docs/theme-reco/js/Functor.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3547e182").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6a91a343").then(next)
     },
   },
   {
-    name: "v-f1c4aba6",
+    name: "v-e0bcc79e",
     path: "/docs/theme-reco/js/PointFree.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f1c4aba6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e0bcc79e").then(next)
     },
   },
   {
-    name: "v-f12dd5a2",
+    name: "v-0c9ea933",
     path: "/docs/theme-reco/js/Promise.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f12dd5a2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0c9ea933").then(next)
     },
   },
   {
-    name: "v-563da1cb",
+    name: "v-79d883cf",
     path: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-563da1cb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-79d883cf").then(next)
     },
   },
   {
@@ -105,11 +145,11 @@ export const routes = [
     redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html"
   },
   {
-    name: "v-62e246ea",
+    name: "v-1ec80224",
     path: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-62e246ea").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1ec80224").then(next)
     },
   },
   {
@@ -121,11 +161,11 @@ export const routes = [
     redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html"
   },
   {
-    name: "v-8b2e7b8e",
+    name: "v-3a51993d",
     path: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-8b2e7b8e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3a51993d").then(next)
     },
   },
   {
@@ -137,11 +177,11 @@ export const routes = [
     redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html"
   },
   {
-    name: "v-5b921ff6",
+    name: "v-521fc709",
     path: "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5b921ff6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-521fc709").then(next)
     },
   },
   {
@@ -153,11 +193,11 @@ export const routes = [
     redirect: "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html"
   },
   {
-    name: "v-780704bc",
+    name: "v-6a3c10c0",
     path: "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-780704bc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6a3c10c0").then(next)
     },
   },
   {
@@ -169,11 +209,11 @@ export const routes = [
     redirect: "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html"
   },
   {
-    name: "v-0aeba294",
+    name: "v-26818a8c",
     path: "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0aeba294").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-26818a8c").then(next)
     },
   },
   {
@@ -185,11 +225,11 @@ export const routes = [
     redirect: "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html"
   },
   {
-    name: "v-1a8a53ac",
+    name: "v-11d9d4b0",
     path: "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1a8a53ac").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-11d9d4b0").then(next)
     },
   },
   {
@@ -201,11 +241,11 @@ export const routes = [
     redirect: "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html"
   },
   {
-    name: "v-77d0bcc7",
+    name: "v-108cd86a",
     path: "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-77d0bcc7").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-108cd86a").then(next)
     },
   },
   {
@@ -217,27 +257,27 @@ export const routes = [
     redirect: "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html"
   },
   {
-    name: "v-77b04362",
+    name: "v-d79fd75a",
     path: "/docs/theme-reco/more/bfc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-77b04362").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d79fd75a").then(next)
     },
   },
   {
-    name: "v-6feaaa63",
+    name: "v-7e0b4d67",
     path: "/docs/theme-reco/network/bfc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6feaaa63").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7e0b4d67").then(next)
     },
   },
   {
-    name: "v-54eec7e3",
+    name: "v-06d4aee7",
     path: "/docs/theme-reco/vue/bfc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-54eec7e3").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-06d4aee7").then(next)
     },
   },
   {
@@ -293,17 +333,43 @@ export const routes = [
     redirect: "/tag/tag4/"
   },
   {
-    name: "v-1368f226",
-    path: "/tag/tag2/",
+    name: "v-3259a754",
+    path: "/tag/CSS/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-1368f226").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-3259a754").then(next)
     },
-    meta: {"pid":"tags","id":"tag2"}
+    meta: {"pid":"tags","id":"CSS"}
   },
   {
-    path: "/tag/tag2/index.html",
-    redirect: "/tag/tag2/"
+    path: "/tag/CSS/index.html",
+    redirect: "/tag/CSS/"
+  },
+  {
+    name: "v-184d950c",
+    path: "/tag/HTML/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-184d950c").then(next)
+    },
+    meta: {"pid":"tags","id":"HTML"}
+  },
+  {
+    path: "/tag/HTML/index.html",
+    redirect: "/tag/HTML/"
+  },
+  {
+    name: "v-325af58c",
+    path: "/tag/BFC/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-325af58c").then(next)
+    },
+    meta: {"pid":"tags","id":"BFC"}
+  },
+  {
+    path: "/tag/BFC/index.html",
+    redirect: "/tag/BFC/"
   },
   {
     name: "v-e8d965c8",
@@ -358,17 +424,30 @@ export const routes = [
     redirect: "/categories/category2/"
   },
   {
-    name: "v-5ce69b78",
-    path: "/categories/category3/",
+    name: "v-7efe64ca",
+    path: "/categories/CSS/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-5ce69b78").then(next)
+      ensureAsyncComponentsLoaded("Category", "v-7efe64ca").then(next)
     },
-    meta: {"pid":"categories","id":"category3"}
+    meta: {"pid":"categories","id":"CSS"}
   },
   {
-    path: "/categories/category3/index.html",
-    redirect: "/categories/category3/"
+    path: "/categories/CSS/index.html",
+    redirect: "/categories/CSS/"
+  },
+  {
+    name: "v-61150b86",
+    path: "/categories/HTML/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-61150b86").then(next)
+    },
+    meta: {"pid":"categories","id":"HTML"}
+  },
+  {
+    path: "/categories/HTML/index.html",
+    redirect: "/categories/HTML/"
   },
   {
     name: "v-35a53628",

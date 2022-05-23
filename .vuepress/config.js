@@ -51,14 +51,17 @@ module.exports = {
       {
         "text": "Contact",
         "icon": "reco-message",
-        "items": [
+        "items": [{
+            "text": "GitHub",
+            "link": "https://github.com/rod-x",
+            "icon": "reco-github"
+          },
           {
-          "text": "GitHub",
-          "link": "https://github.com/rod-x",
-          "icon": "reco-github"
-        },
-        { text: '掘金', link: 'https://juejin.cn/user/1196687670914888', icon: 'reco-juejin' },
-      ]
+            text: '掘金',
+            link: 'https://juejin.cn/user/1196687670914888',
+            icon: 'reco-juejin'
+          },
+        ]
       },
     ],
     // valineConfig: {
@@ -69,62 +72,72 @@ module.exports = {
       "/docs/theme-reco/": [{
           title: 'HTML&CSS',
           collapsable: true,
-          children: [
-            {
-            title: 'BFC及其应用',
-            path: '/docs/theme-reco/html&css/bfc'
+          children: [{
+              title: 'BFC及其应用',
+              path: '/docs/theme-reco/html&css/bfc'
             },
-         ]
+            {
+              title: '文本溢出省略效果',
+              path: '/docs/theme-reco/html&css/文本溢出省略效果'
+            },
+            {
+              title: '水平垂直居中',
+              path: '/docs/theme-reco/html&css/水平垂直居中'
+            },
+            {
+              title: '隐藏元素方式的优略',
+              path: '/docs/theme-reco/html&css/opacity&visibilty&display'
+            },
+          ]
         },
         {
           title: 'JS',
           collapsable: true,
-          children: [
+          children: [{
+              title: '闭包',
+              path: '/docs/theme-reco/js/闭包'
+            },
             {
-            title: '闭包',
-            path: '/docs/theme-reco/js/闭包'
-          }, 
-          {
-            title: '纯函数',
-            path: '/docs/theme-reco/js/纯函数'
-          }, 
-          {
-            title: '高阶函数',
-            path: '/docs/theme-reco/js/高阶函数'
-          }, 
-          {
-            title: '函数式编程',
-            path: '/docs/theme-reco/js/函数式编程'
-          }, 
-          {
-            title: '函数是一等公民',
-            path: '/docs/theme-reco/js/函数是一等公民'
-          }, 
-          {
-            title: '函数组合',
-            path: '/docs/theme-reco/js/函数组合'
-          }, 
-          {
-            title: '柯里化',
-            path: '/docs/theme-reco/js/柯里化'
-          }, 
-          {
-            title: '异步编程',
-            path: '/docs/theme-reco/js/异步编程'
-          }, 
-          {
-            title: 'Functor',
-            path: '/docs/theme-reco/js/Functor'
-          }, 
-          {
-            title: 'PointFree',
-            path: '/docs/theme-reco/js/PointFree'
-          }, 
-          {
-            title: 'Promise',
-            path: '/docs/theme-reco/js/Promise'
-          }, 
-        ]
+              title: '纯函数',
+              path: '/docs/theme-reco/js/纯函数'
+            },
+            {
+              title: '高阶函数',
+              path: '/docs/theme-reco/js/高阶函数'
+            },
+            {
+              title: '函数式编程',
+              path: '/docs/theme-reco/js/函数式编程'
+            },
+            {
+              title: '函数是一等公民',
+              path: '/docs/theme-reco/js/函数是一等公民'
+            },
+            {
+              title: '函数组合',
+              path: '/docs/theme-reco/js/函数组合'
+            },
+            {
+              title: '柯里化',
+              path: '/docs/theme-reco/js/柯里化'
+            },
+            {
+              title: '异步编程',
+              path: '/docs/theme-reco/js/异步编程'
+            },
+            {
+              title: 'Functor',
+              path: '/docs/theme-reco/js/Functor'
+            },
+            {
+              title: 'PointFree',
+              path: '/docs/theme-reco/js/PointFree'
+            },
+            {
+              title: 'Promise',
+              path: '/docs/theme-reco/js/Promise'
+            },
+          ]
         },
         {
           title: 'Vue',
