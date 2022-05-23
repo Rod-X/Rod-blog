@@ -21,6 +21,18 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-3b7c90bb",
+    path: "/docs/theme-reco/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/index.html",
+    redirect: "/docs/theme-reco/"
+  },
+  {
     name: "v-0d7f5703",
     path: "/docs/theme-reco/algorithm/bfc.html",
     component: GlobalLayout,
@@ -43,18 +55,6 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-275df203").then(next)
     },
-  },
-  {
-    name: "v-3b7c90bb",
-    path: "/docs/theme-reco/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
-    },
-  },
-  {
-    path: "/docs/theme-reco/index.html",
-    redirect: "/docs/theme-reco/"
   },
   {
     name: "v-3547e182",
@@ -225,19 +225,19 @@ export const routes = [
     },
   },
   {
-    name: "v-54eec7e3",
-    path: "/docs/theme-reco/vue/bfc.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-54eec7e3").then(next)
-    },
-  },
-  {
     name: "v-6feaaa63",
     path: "/docs/theme-reco/network/bfc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-6feaaa63").then(next)
+    },
+  },
+  {
+    name: "v-54eec7e3",
+    path: "/docs/theme-reco/vue/bfc.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-54eec7e3").then(next)
     },
   },
   {

@@ -62,6 +62,19 @@ export const siteData = {
       "frontmatter": {
         "title": "bfc",
         "date": "2020-05-30T00:00:00.000Z",
+        "publish": false
+      },
+      "regularPath": "/docs/theme-reco/",
+      "relativePath": "docs/theme-reco/README.md",
+      "key": "v-3b7c90bb",
+      "path": "/docs/theme-reco/",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
+    },
+    {
+      "title": "bfc",
+      "frontmatter": {
+        "title": "bfc",
+        "date": "2020-05-30T00:00:00.000Z",
         "tags": [
           "tag4"
         ],
@@ -105,19 +118,6 @@ export const siteData = {
       "key": "v-275df203",
       "path": "/docs/theme-reco/engineering/bfc.html",
       "lastUpdated": "5/22/2022, 8:39:26 PM"
-    },
-    {
-      "title": "bfc",
-      "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z",
-        "publish": false
-      },
-      "regularPath": "/docs/theme-reco/",
-      "relativePath": "docs/theme-reco/README.md",
-      "key": "v-3b7c90bb",
-      "path": "/docs/theme-reco/",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
       "title": "Functor",
@@ -177,7 +177,8 @@ export const siteData = {
           "title": "Monad函子",
           "slug": "monad函子"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "bfc",
@@ -220,7 +221,8 @@ export const siteData = {
           "title": "PointFree",
           "slug": "pointfree"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "Promise",
@@ -275,7 +277,8 @@ export const siteData = {
           "title": "静态方法",
           "slug": "静态方法"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "函数式编程",
@@ -310,7 +313,8 @@ export const siteData = {
           "title": "函数式编程的思维方式",
           "slug": "函数式编程的思维方式"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "函数是一等公民",
@@ -328,7 +332,8 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html",
       "relativePath": "docs/theme-reco/js/函数是一等公民.md",
       "key": "v-62e246ea",
-      "path": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html"
+      "path": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html",
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "函数组合",
@@ -358,7 +363,8 @@ export const siteData = {
           "title": "如果组合",
           "slug": "如果组合"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "异步编程",
@@ -413,7 +419,8 @@ export const siteData = {
           "title": "执行栈",
           "slug": "执行栈"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "柯里化",
@@ -443,7 +450,8 @@ export const siteData = {
           "title": "实践总结",
           "slug": "实践总结"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "纯函数",
@@ -473,7 +481,8 @@ export const siteData = {
           "title": "副作用",
           "slug": "副作用"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "闭包",
@@ -492,7 +501,8 @@ export const siteData = {
       "regularPath": "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html",
       "relativePath": "docs/theme-reco/js/闭包.md",
       "key": "v-1a8a53ac",
-      "path": "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html"
+      "path": "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html",
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "高阶函数",
@@ -527,7 +537,8 @@ export const siteData = {
           "title": "常用的高阶函数",
           "slug": "常用的高阶函数"
         }
-      ]
+      ],
+      "lastUpdated": "5/23/2022, 12:37:02 PM"
     },
     {
       "title": "bfc",
@@ -547,10 +558,10 @@ export const siteData = {
         "title": "bfc",
         "date": "2020-05-30T00:00:00.000Z"
       },
-      "regularPath": "/docs/theme-reco/vue/bfc.html",
-      "relativePath": "docs/theme-reco/vue/bfc.md",
-      "key": "v-54eec7e3",
-      "path": "/docs/theme-reco/vue/bfc.html",
+      "regularPath": "/docs/theme-reco/network/bfc.html",
+      "relativePath": "docs/theme-reco/network/bfc.md",
+      "key": "v-6feaaa63",
+      "path": "/docs/theme-reco/network/bfc.html",
       "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
@@ -559,10 +570,10 @@ export const siteData = {
         "title": "bfc",
         "date": "2020-05-30T00:00:00.000Z"
       },
-      "regularPath": "/docs/theme-reco/network/bfc.html",
-      "relativePath": "docs/theme-reco/network/bfc.md",
-      "key": "v-6feaaa63",
-      "path": "/docs/theme-reco/network/bfc.html",
+      "regularPath": "/docs/theme-reco/vue/bfc.html",
+      "relativePath": "docs/theme-reco/vue/bfc.md",
+      "key": "v-54eec7e3",
+      "path": "/docs/theme-reco/vue/bfc.html",
       "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
@@ -728,116 +739,118 @@ export const siteData = {
     ],
     "sidebar": {
       "/docs/theme-reco/": [
-        {
-          "title": "HTML&CSS",
-          "collapsable": true,
-          "children": [
-            {
-              "title": "BFC及其应用",
-              "path": "/docs/theme-reco/html&css/bfc"
-            }
-          ]
-        },
-        {
-          "title": "JS",
-          "collapsable": true,
-          "children": [
-            {
-              "title": "闭包",
-              "path": "/docs/theme-reco/js/闭包"
-            },
-            {
-              "title": "纯函数",
-              "path": "/docs/theme-reco/js/纯函数"
-            },
-            {
-              "title": "高阶函数",
-              "path": "/docs/theme-reco/js/高阶函数"
-            },
-            {
-              "title": "函数式编程",
-              "path": "/docs/theme-reco/js/函数式编程"
-            },
-            {
-              "title": "函数是一等公民",
-              "path": "/docs/theme-reco/js/函数是一等公民"
-            },
-            {
-              "title": "函数组合",
-              "path": "/docs/theme-reco/js/函数组合"
-            },
-            {
-              "title": "柯里化",
-              "path": "/docs/theme-reco/js/柯里化"
-            },
-            {
-              "title": "异步编程",
-              "path": "/docs/theme-reco/js/异步编程"
-            },
-            {
-              "title": "Functor",
-              "path": "/docs/theme-reco/js/Functor"
-            },
-            {
-              "title": "PointFree",
-              "path": "/docs/theme-reco/js/PointFree"
-            },
-            {
-              "title": "Promise",
-              "path": "/docs/theme-reco/js/Promise"
-            }
-          ]
-        },
-        {
-          "title": "Vue",
-          "collapsable": true,
-          "children": [
-            {
-              "title": "jsBFC及其应用",
-              "path": "/docs/theme-reco/vue/bfc"
-            }
-          ]
-        },
-        {
-          "title": "前端工程化",
-          "collapsable": true,
-          "children": [
-            {
-              "title": "jsBFC及其应用",
-              "path": "/docs/theme-reco/engineering/bfc"
-            }
-          ]
-        },
-        {
-          "title": "网络知识",
-          "collapsable": true,
-          "children": [
-            {
-              "title": "jsBFC及其应用",
-              "path": "/docs/theme-reco/network/bfc"
-            }
-          ]
-        },
-        {
-          "title": "算法",
-          "collapsable": true,
-          "children": [
-            {
-              "title": "jsBFC及其应用",
-              "path": "/docs/theme-reco/algorithm/bfc"
-            }
-          ]
-        },
-        {
-          "title": "其他",
-          "collapsable": true,
-          "children": [
-            {
-              "title": "jsBFC及其应用",
-              "path": "/docs/theme-reco/more/bfc"
-            }
-          ]
-        }
+        [
+          {
+            "title": "HTML&CSS",
+            "collapsable": true,
+            "children": [
+              {
+                "title": "BFC及其应用",
+                "path": "/docs/theme-reco/html&css/bfc"
+              }
+            ]
+          },
+          {
+            "title": "JS",
+            "collapsable": true,
+            "children": [
+              {
+                "title": "闭包",
+                "path": "/docs/theme-reco/js/闭包"
+              },
+              {
+                "title": "纯函数",
+                "path": "/docs/theme-reco/js/纯函数"
+              },
+              {
+                "title": "高阶函数",
+                "path": "/docs/theme-reco/js/高阶函数"
+              },
+              {
+                "title": "函数式编程",
+                "path": "/docs/theme-reco/js/函数式编程"
+              },
+              {
+                "title": "函数是一等公民",
+                "path": "/docs/theme-reco/js/函数是一等公民"
+              },
+              {
+                "title": "函数组合",
+                "path": "/docs/theme-reco/js/函数组合"
+              },
+              {
+                "title": "柯里化",
+                "path": "/docs/theme-reco/js/柯里化"
+              },
+              {
+                "title": "异步编程",
+                "path": "/docs/theme-reco/js/异步编程"
+              },
+              {
+                "title": "Functor",
+                "path": "/docs/theme-reco/js/Functor"
+              },
+              {
+                "title": "PointFree",
+                "path": "/docs/theme-reco/js/PointFree"
+              },
+              {
+                "title": "Promise",
+                "path": "/docs/theme-reco/js/Promise"
+              }
+            ]
+          },
+          {
+            "title": "Vue",
+            "collapsable": true,
+            "children": [
+              {
+                "title": "jsBFC及其应用",
+                "path": "/docs/theme-reco/vue/bfc"
+              }
+            ]
+          },
+          {
+            "title": "前端工程化",
+            "collapsable": true,
+            "children": [
+              {
+                "title": "jsBFC及其应用",
+                "path": "/docs/theme-reco/engineering/bfc"
+              }
+            ]
+          },
+          {
+            "title": "网络知识",
+            "collapsable": true,
+            "children": [
+              {
+                "title": "jsBFC及其应用",
+                "path": "/docs/theme-reco/network/bfc"
+              }
+            ]
+          },
+          {
+            "title": "算法",
+            "collapsable": true,
+            "children": [
+              {
+                "title": "jsBFC及其应用",
+                "path": "/docs/theme-reco/algorithm/bfc"
+              }
+            ]
+          },
+          {
+            "title": "其他",
+            "collapsable": true,
+            "children": [
+              {
+                "title": "jsBFC及其应用",
+                "path": "/docs/theme-reco/more/bfc"
+              }
+            ]
+          }
+        ]
       ]
     },
     "type": "blog",
