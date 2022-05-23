@@ -8,7 +8,60 @@ export default {
       "scope": "tags",
       "path": "/tag/tag4/",
       "pageKeys": [
-        "v-0d7f5703"
+        "v-0d7f5703",
+        "v-275df203"
+      ]
+    },
+    "JS": {
+      "key": "JS",
+      "scope": "tags",
+      "path": "/tag/JS/",
+      "pageKeys": [
+        "v-3547e182",
+        "v-f1c4aba6",
+        "v-f12dd5a2",
+        "v-563da1cb",
+        "v-62e246ea",
+        "v-8b2e7b8e",
+        "v-5b921ff6",
+        "v-780704bc",
+        "v-0aeba294",
+        "v-1a8a53ac",
+        "v-77d0bcc7"
+      ]
+    },
+    "函数": {
+      "key": "函数",
+      "scope": "tags",
+      "path": "/tag/函数/",
+      "pageKeys": [
+        "v-3547e182",
+        "v-f1c4aba6",
+        "v-f12dd5a2",
+        "v-563da1cb",
+        "v-62e246ea",
+        "v-8b2e7b8e",
+        "v-5b921ff6",
+        "v-780704bc",
+        "v-0aeba294",
+        "v-1a8a53ac",
+        "v-77d0bcc7"
+      ]
+    },
+    "tag2": {
+      "key": "tag2",
+      "scope": "tags",
+      "path": "/tag/tag2/",
+      "pageKeys": [
+        "v-27548729"
+      ]
+    },
+    "闭包": {
+      "key": "闭包",
+      "scope": "tags",
+      "path": "/tag/闭包/",
+      "pageKeys": [
+        "v-1a8a53ac"
       ]
     }
   },
@@ -18,7 +71,34 @@ export default {
       "scope": "categories",
       "path": "/categories/category2/",
       "pageKeys": [
-        "v-0d7f5703"
+        "v-0d7f5703",
+        "v-275df203"
+      ]
+    },
+    "JS": {
+      "key": "JS",
+      "scope": "categories",
+      "path": "/categories/JS/",
+      "pageKeys": [
+        "v-3547e182",
+        "v-f1c4aba6",
+        "v-f12dd5a2",
+        "v-563da1cb",
+        "v-62e246ea",
+        "v-8b2e7b8e",
+        "v-5b921ff6",
+        "v-780704bc",
+        "v-0aeba294",
+        "v-1a8a53ac",
+        "v-77d0bcc7"
+      ]
+    },
+    "category3": {
+      "key": "category3",
+      "scope": "categories",
+      "path": "/categories/category3/",
+      "pageKeys": [
+        "v-27548729"
       ]
     }
   },

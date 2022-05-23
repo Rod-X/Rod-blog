@@ -62,19 +62,6 @@ export const siteData = {
       "frontmatter": {
         "title": "bfc",
         "date": "2020-05-30T00:00:00.000Z",
-        "publish": false
-      },
-      "regularPath": "/docs/theme-reco/",
-      "relativePath": "docs/theme-reco/README.md",
-      "key": "v-3b7c90bb",
-      "path": "/docs/theme-reco/",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
-    },
-    {
-      "title": "bfc",
-      "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z",
         "tags": [
           "tag4"
         ],
@@ -86,7 +73,7 @@ export const siteData = {
       "relativePath": "docs/theme-reco/algorithm/bfc.md",
       "key": "v-0d7f5703",
       "path": "/docs/theme-reco/algorithm/bfc.html",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
+      "lastUpdated": "5/22/2022, 8:39:26 PM"
     },
     {
       "title": "bfc",
@@ -105,37 +92,442 @@ export const siteData = {
       "title": "bfc",
       "frontmatter": {
         "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z"
+        "date": "2020-05-30T00:00:00.000Z",
+        "tags": [
+          "tag4"
+        ],
+        "categories": [
+          "category2"
+        ]
       },
       "regularPath": "/docs/theme-reco/engineering/bfc.html",
       "relativePath": "docs/theme-reco/engineering/bfc.md",
       "key": "v-275df203",
       "path": "/docs/theme-reco/engineering/bfc.html",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
+      "lastUpdated": "5/22/2022, 8:39:26 PM"
     },
     {
       "title": "bfc",
       "frontmatter": {
         "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z"
+        "date": "2020-05-30T00:00:00.000Z",
+        "publish": false
+      },
+      "regularPath": "/docs/theme-reco/",
+      "relativePath": "docs/theme-reco/README.md",
+      "key": "v-3b7c90bb",
+      "path": "/docs/theme-reco/",
+      "lastUpdated": "5/22/2022, 7:10:21 PM"
+    },
+    {
+      "title": "Functor",
+      "frontmatter": {
+        "title": "Functor",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/Functor.html",
+      "relativePath": "docs/theme-reco/js/Functor.md",
+      "key": "v-3547e182",
+      "path": "/docs/theme-reco/js/Functor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是Functor",
+          "slug": "什么是functor"
+        },
+        {
+          "level": 2,
+          "title": "实践总结",
+          "slug": "实践总结"
+        },
+        {
+          "level": 2,
+          "title": "MayBe函子",
+          "slug": "maybe函子"
+        },
+        {
+          "level": 2,
+          "title": "Either函子",
+          "slug": "either函子"
+        },
+        {
+          "level": 2,
+          "title": "IO函子",
+          "slug": "io函子"
+        },
+        {
+          "level": 2,
+          "title": "Task 异步执行",
+          "slug": "task-异步执行"
+        },
+        {
+          "level": 2,
+          "title": "Pointed函子",
+          "slug": "pointed函子"
+        },
+        {
+          "level": 2,
+          "title": "Monad函子",
+          "slug": "monad函子"
+        }
+      ]
+    },
+    {
+      "title": "bfc",
+      "frontmatter": {
+        "title": "bfc",
+        "date": "2020-05-30T00:00:00.000Z",
+        "tags": [
+          "tag2"
+        ],
+        "categories": [
+          "category3"
+        ]
       },
       "regularPath": "/docs/theme-reco/html&css/bfc.html",
       "relativePath": "docs/theme-reco/html&css/bfc.md",
       "key": "v-27548729",
       "path": "/docs/theme-reco/html&css/bfc.html",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
+      "lastUpdated": "5/22/2022, 8:39:26 PM"
     },
     {
-      "title": "bfc",
+      "title": "PointFree",
       "frontmatter": {
-        "title": "bfc",
-        "date": "2020-05-30T00:00:00.000Z"
+        "title": "PointFree",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
       },
-      "regularPath": "/docs/theme-reco/js/bfc.html",
-      "relativePath": "docs/theme-reco/js/bfc.md",
-      "key": "v-afe97732",
-      "path": "/docs/theme-reco/js/bfc.html",
-      "lastUpdated": "5/22/2022, 7:10:21 PM"
+      "regularPath": "/docs/theme-reco/js/PointFree.html",
+      "relativePath": "docs/theme-reco/js/PointFree.md",
+      "key": "v-f1c4aba6",
+      "path": "/docs/theme-reco/js/PointFree.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "PointFree",
+          "slug": "pointfree"
+        }
+      ]
+    },
+    {
+      "title": "Promise",
+      "frontmatter": {
+        "title": "Promise",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/Promise.html",
+      "relativePath": "docs/theme-reco/js/Promise.md",
+      "key": "v-f12dd5a2",
+      "path": "/docs/theme-reco/js/Promise.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Promise状态",
+          "slug": "promise状态"
+        },
+        {
+          "level": 2,
+          "title": "基本使用",
+          "slug": "基本使用"
+        },
+        {
+          "level": 2,
+          "title": "常见误区",
+          "slug": "常见误区"
+        },
+        {
+          "level": 2,
+          "title": "链式调用",
+          "slug": "链式调用"
+        },
+        {
+          "level": 2,
+          "title": "异常处理",
+          "slug": "异常处理"
+        },
+        {
+          "level": 2,
+          "title": "最终处理finally",
+          "slug": "最终处理finally"
+        },
+        {
+          "level": 2,
+          "title": "静态方法",
+          "slug": "静态方法"
+        }
+      ]
+    },
+    {
+      "title": "函数式编程",
+      "frontmatter": {
+        "title": "函数式编程",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html",
+      "relativePath": "docs/theme-reco/js/函数式编程.md",
+      "key": "v-563da1cb",
+      "path": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么式函数式编程",
+          "slug": "什么式函数式编程"
+        },
+        {
+          "level": 2,
+          "title": "面向对象编程的思维方式",
+          "slug": "面向对象编程的思维方式"
+        },
+        {
+          "level": 2,
+          "title": "函数式编程的思维方式",
+          "slug": "函数式编程的思维方式"
+        }
+      ]
+    },
+    {
+      "title": "函数是一等公民",
+      "frontmatter": {
+        "title": "函数是一等公民",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html",
+      "relativePath": "docs/theme-reco/js/函数是一等公民.md",
+      "key": "v-62e246ea",
+      "path": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html"
+    },
+    {
+      "title": "函数组合",
+      "frontmatter": {
+        "title": "函数组合",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html",
+      "relativePath": "docs/theme-reco/js/函数组合.md",
+      "key": "v-8b2e7b8e",
+      "path": "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "管道",
+          "slug": "管道"
+        },
+        {
+          "level": 2,
+          "title": "如果组合",
+          "slug": "如果组合"
+        }
+      ]
+    },
+    {
+      "title": "异步编程",
+      "frontmatter": {
+        "title": "异步编程",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html",
+      "relativePath": "docs/theme-reco/js/异步编程.md",
+      "key": "v-5b921ff6",
+      "path": "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "js的进程与线程",
+          "slug": "js的进程与线程"
+        },
+        {
+          "level": 2,
+          "title": "同步模式&异步模式",
+          "slug": "同步模式-异步模式"
+        },
+        {
+          "level": 3,
+          "title": "同步模式",
+          "slug": "同步模式"
+        },
+        {
+          "level": 3,
+          "title": "异步模式",
+          "slug": "异步模式"
+        },
+        {
+          "level": 3,
+          "title": "任务队列",
+          "slug": "任务队列"
+        },
+        {
+          "level": 3,
+          "title": "事件循环",
+          "slug": "事件循环"
+        },
+        {
+          "level": 3,
+          "title": "执行栈",
+          "slug": "执行栈"
+        }
+      ]
+    },
+    {
+      "title": "柯里化",
+      "frontmatter": {
+        "title": "柯里化",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
+      "relativePath": "docs/theme-reco/js/柯里化.md",
+      "key": "v-780704bc",
+      "path": "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "ladash中的柯里化函数",
+          "slug": "ladash中的柯里化函数"
+        },
+        {
+          "level": 2,
+          "title": "实践总结",
+          "slug": "实践总结"
+        }
+      ]
+    },
+    {
+      "title": "纯函数",
+      "frontmatter": {
+        "title": "纯函数",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html",
+      "relativePath": "docs/theme-reco/js/纯函数.md",
+      "key": "v-0aeba294",
+      "path": "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "纯函数的好处",
+          "slug": "纯函数的好处"
+        },
+        {
+          "level": 2,
+          "title": "副作用",
+          "slug": "副作用"
+        }
+      ]
+    },
+    {
+      "title": "闭包",
+      "frontmatter": {
+        "title": "闭包",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "闭包",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html",
+      "relativePath": "docs/theme-reco/js/闭包.md",
+      "key": "v-1a8a53ac",
+      "path": "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html"
+    },
+    {
+      "title": "高阶函数",
+      "frontmatter": {
+        "title": "高阶函数",
+        "date": "2021-05-30T00:00:00.000Z",
+        "tags": [
+          "JS",
+          "函数"
+        ],
+        "categories": [
+          "JS"
+        ]
+      },
+      "regularPath": "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html",
+      "relativePath": "docs/theme-reco/js/高阶函数.md",
+      "key": "v-77d0bcc7",
+      "path": "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "什么是高阶函数",
+          "slug": "什么是高阶函数"
+        },
+        {
+          "level": 2,
+          "title": "使用高阶函数的亿元",
+          "slug": "使用高阶函数的亿元"
+        },
+        {
+          "level": 2,
+          "title": "常用的高阶函数",
+          "slug": "常用的高阶函数"
+        }
+      ]
     },
     {
       "title": "bfc",
@@ -155,10 +547,10 @@ export const siteData = {
         "title": "bfc",
         "date": "2020-05-30T00:00:00.000Z"
       },
-      "regularPath": "/docs/theme-reco/network/bfc.html",
-      "relativePath": "docs/theme-reco/network/bfc.md",
-      "key": "v-6feaaa63",
-      "path": "/docs/theme-reco/network/bfc.html",
+      "regularPath": "/docs/theme-reco/vue/bfc.html",
+      "relativePath": "docs/theme-reco/vue/bfc.md",
+      "key": "v-54eec7e3",
+      "path": "/docs/theme-reco/vue/bfc.html",
       "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
@@ -167,10 +559,10 @@ export const siteData = {
         "title": "bfc",
         "date": "2020-05-30T00:00:00.000Z"
       },
-      "regularPath": "/docs/theme-reco/vue/bfc.html",
-      "relativePath": "docs/theme-reco/vue/bfc.md",
-      "key": "v-54eec7e3",
-      "path": "/docs/theme-reco/vue/bfc.html",
+      "regularPath": "/docs/theme-reco/network/bfc.html",
+      "relativePath": "docs/theme-reco/network/bfc.md",
+      "key": "v-6feaaa63",
+      "path": "/docs/theme-reco/network/bfc.html",
       "lastUpdated": "5/22/2022, 7:10:21 PM"
     },
     {
@@ -211,12 +603,93 @@ export const siteData = {
     },
     {
       "frontmatter": {
+        "layout": "Tag",
+        "title": "JS Tags"
+      },
+      "regularPath": "/tag/JS/",
+      "key": "v-e8d965c8",
+      "path": "/tag/JS/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "函数 Tags"
+      },
+      "regularPath": "/tag/%E5%87%BD%E6%95%B0/",
+      "key": "v-5c9b2e55",
+      "path": "/tag/函数/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "tag2 Tags"
+      },
+      "regularPath": "/tag/tag2/",
+      "key": "v-1368f226",
+      "path": "/tag/tag2/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "闭包 Tags"
+      },
+      "regularPath": "/tag/%E9%97%AD%E5%8C%85/",
+      "key": "v-eec8ec48",
+      "path": "/tag/闭包/"
+    },
+    {
+      "frontmatter": {
         "layout": "Category",
         "title": "category2 Categories"
       },
       "regularPath": "/categories/category2/",
       "key": "v-5ce69b59",
       "path": "/categories/category2/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "JS Categories"
+      },
+      "regularPath": "/categories/JS/",
+      "key": "v-35a53628",
+      "path": "/categories/JS/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "category3 Categories"
+      },
+      "regularPath": "/categories/category3/",
+      "key": "v-5ce69b78",
+      "path": "/categories/category3/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Layout",
+        "title": "Page 2 - JS | Tags"
+      },
+      "regularPath": "/tag/JS/page/2/",
+      "key": "v-7f71ddbe",
+      "path": "/tag/JS/page/2/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Layout",
+        "title": "Page 2 - 函数 | Tags"
+      },
+      "regularPath": "/tag/%E5%87%BD%E6%95%B0/page/2/",
+      "key": "v-12f30dc8",
+      "path": "/tag/函数/page/2/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Layout",
+        "title": "Page 2 - JS | Categories"
+      },
+      "regularPath": "/categories/JS/page/2/",
+      "key": "v-bd09bad6",
+      "path": "/categories/JS/page/2/"
     }
   ],
   "themeConfig": {
@@ -270,8 +743,48 @@ export const siteData = {
           "collapsable": true,
           "children": [
             {
-              "title": "jsBFC及其应用",
-              "path": "/docs/theme-reco/js/bfc"
+              "title": "闭包",
+              "path": "/docs/theme-reco/js/闭包"
+            },
+            {
+              "title": "纯函数",
+              "path": "/docs/theme-reco/js/纯函数"
+            },
+            {
+              "title": "高阶函数",
+              "path": "/docs/theme-reco/js/高阶函数"
+            },
+            {
+              "title": "函数式编程",
+              "path": "/docs/theme-reco/js/函数式编程"
+            },
+            {
+              "title": "函数是一等公民",
+              "path": "/docs/theme-reco/js/函数是一等公民"
+            },
+            {
+              "title": "函数组合",
+              "path": "/docs/theme-reco/js/函数组合"
+            },
+            {
+              "title": "柯里化",
+              "path": "/docs/theme-reco/js/柯里化"
+            },
+            {
+              "title": "异步编程",
+              "path": "/docs/theme-reco/js/异步编程"
+            },
+            {
+              "title": "Functor",
+              "path": "/docs/theme-reco/js/Functor"
+            },
+            {
+              "title": "PointFree",
+              "path": "/docs/theme-reco/js/PointFree"
+            },
+            {
+              "title": "Promise",
+              "path": "/docs/theme-reco/js/Promise"
             }
           ]
         },

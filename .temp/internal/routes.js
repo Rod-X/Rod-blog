@@ -21,18 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-3b7c90bb",
-    path: "/docs/theme-reco/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
-    },
-  },
-  {
-    path: "/docs/theme-reco/index.html",
-    redirect: "/docs/theme-reco/"
-  },
-  {
     name: "v-0d7f5703",
     path: "/docs/theme-reco/algorithm/bfc.html",
     component: GlobalLayout,
@@ -57,6 +45,26 @@ export const routes = [
     },
   },
   {
+    name: "v-3b7c90bb",
+    path: "/docs/theme-reco/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b7c90bb").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/index.html",
+    redirect: "/docs/theme-reco/"
+  },
+  {
+    name: "v-3547e182",
+    path: "/docs/theme-reco/js/Functor.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3547e182").then(next)
+    },
+  },
+  {
     name: "v-27548729",
     path: "/docs/theme-reco/html&css/bfc.html",
     component: GlobalLayout,
@@ -65,12 +73,148 @@ export const routes = [
     },
   },
   {
-    name: "v-afe97732",
-    path: "/docs/theme-reco/js/bfc.html",
+    name: "v-f1c4aba6",
+    path: "/docs/theme-reco/js/PointFree.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-afe97732").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-f1c4aba6").then(next)
     },
+  },
+  {
+    name: "v-f12dd5a2",
+    path: "/docs/theme-reco/js/Promise.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f12dd5a2").then(next)
+    },
+  },
+  {
+    name: "v-563da1cb",
+    path: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-563da1cb").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/js/函数式编程.html",
+    redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html"
+  },
+  {
+    path: "/docs/theme-reco/js/函数式编程.html",
+    redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html"
+  },
+  {
+    name: "v-62e246ea",
+    path: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-62e246ea").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/js/函数是一等公民.html",
+    redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html"
+  },
+  {
+    path: "/docs/theme-reco/js/函数是一等公民.html",
+    redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E6%98%AF%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91.html"
+  },
+  {
+    name: "v-8b2e7b8e",
+    path: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8b2e7b8e").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/js/函数组合.html",
+    redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html"
+  },
+  {
+    path: "/docs/theme-reco/js/函数组合.html",
+    redirect: "/docs/theme-reco/js/%E5%87%BD%E6%95%B0%E7%BB%84%E5%90%88.html"
+  },
+  {
+    name: "v-5b921ff6",
+    path: "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5b921ff6").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/js/异步编程.html",
+    redirect: "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html"
+  },
+  {
+    path: "/docs/theme-reco/js/异步编程.html",
+    redirect: "/docs/theme-reco/js/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.html"
+  },
+  {
+    name: "v-780704bc",
+    path: "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-780704bc").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/js/柯里化.html",
+    redirect: "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html"
+  },
+  {
+    path: "/docs/theme-reco/js/柯里化.html",
+    redirect: "/docs/theme-reco/js/%E6%9F%AF%E9%87%8C%E5%8C%96.html"
+  },
+  {
+    name: "v-0aeba294",
+    path: "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0aeba294").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/js/纯函数.html",
+    redirect: "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html"
+  },
+  {
+    path: "/docs/theme-reco/js/纯函数.html",
+    redirect: "/docs/theme-reco/js/%E7%BA%AF%E5%87%BD%E6%95%B0.html"
+  },
+  {
+    name: "v-1a8a53ac",
+    path: "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1a8a53ac").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/js/闭包.html",
+    redirect: "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html"
+  },
+  {
+    path: "/docs/theme-reco/js/闭包.html",
+    redirect: "/docs/theme-reco/js/%E9%97%AD%E5%8C%85.html"
+  },
+  {
+    name: "v-77d0bcc7",
+    path: "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-77d0bcc7").then(next)
+    },
+  },
+  {
+    path: "/docs/theme-reco/js/高阶函数.html",
+    redirect: "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html"
+  },
+  {
+    path: "/docs/theme-reco/js/高阶函数.html",
+    redirect: "/docs/theme-reco/js/%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0.html"
   },
   {
     name: "v-77b04362",
@@ -81,19 +225,19 @@ export const routes = [
     },
   },
   {
-    name: "v-6feaaa63",
-    path: "/docs/theme-reco/network/bfc.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6feaaa63").then(next)
-    },
-  },
-  {
     name: "v-54eec7e3",
     path: "/docs/theme-reco/vue/bfc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-54eec7e3").then(next)
+    },
+  },
+  {
+    name: "v-6feaaa63",
+    path: "/docs/theme-reco/network/bfc.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6feaaa63").then(next)
     },
   },
   {
@@ -149,6 +293,58 @@ export const routes = [
     redirect: "/tag/tag4/"
   },
   {
+    name: "v-e8d965c8",
+    path: "/tag/JS/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-e8d965c8").then(next)
+    },
+    meta: {"pid":"tags","id":"JS"}
+  },
+  {
+    path: "/tag/JS/index.html",
+    redirect: "/tag/JS/"
+  },
+  {
+    name: "v-5c9b2e55",
+    path: "/tag/函数/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-5c9b2e55").then(next)
+    },
+    meta: {"pid":"tags","id":"函数"}
+  },
+  {
+    path: "/tag/函数/index.html",
+    redirect: "/tag/函数/"
+  },
+  {
+    name: "v-1368f226",
+    path: "/tag/tag2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-1368f226").then(next)
+    },
+    meta: {"pid":"tags","id":"tag2"}
+  },
+  {
+    path: "/tag/tag2/index.html",
+    redirect: "/tag/tag2/"
+  },
+  {
+    name: "v-eec8ec48",
+    path: "/tag/闭包/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-eec8ec48").then(next)
+    },
+    meta: {"pid":"tags","id":"闭包"}
+  },
+  {
+    path: "/tag/闭包/index.html",
+    redirect: "/tag/闭包/"
+  },
+  {
     name: "v-5ce69b59",
     path: "/categories/category2/",
     component: GlobalLayout,
@@ -160,6 +356,71 @@ export const routes = [
   {
     path: "/categories/category2/index.html",
     redirect: "/categories/category2/"
+  },
+  {
+    name: "v-35a53628",
+    path: "/categories/JS/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-35a53628").then(next)
+    },
+    meta: {"pid":"categories","id":"JS"}
+  },
+  {
+    path: "/categories/JS/index.html",
+    redirect: "/categories/JS/"
+  },
+  {
+    name: "v-5ce69b78",
+    path: "/categories/category3/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-5ce69b78").then(next)
+    },
+    meta: {"pid":"categories","id":"category3"}
+  },
+  {
+    path: "/categories/category3/index.html",
+    redirect: "/categories/category3/"
+  },
+  {
+    name: "v-7f71ddbe",
+    path: "/tag/JS/page/2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7f71ddbe").then(next)
+    },
+    meta: {"pid":"tags","id":"JS"}
+  },
+  {
+    path: "/tag/JS/page/2/index.html",
+    redirect: "/tag/JS/page/2/"
+  },
+  {
+    name: "v-12f30dc8",
+    path: "/tag/函数/page/2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-12f30dc8").then(next)
+    },
+    meta: {"pid":"tags","id":"函数"}
+  },
+  {
+    path: "/tag/函数/page/2/index.html",
+    redirect: "/tag/函数/page/2/"
+  },
+  {
+    name: "v-bd09bad6",
+    path: "/categories/JS/page/2/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-bd09bad6").then(next)
+    },
+    meta: {"pid":"categories","id":"JS"}
+  },
+  {
+    path: "/categories/JS/page/2/index.html",
+    redirect: "/categories/JS/page/2/"
   },
   {
     path: '*',

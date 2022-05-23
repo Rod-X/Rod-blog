@@ -3,13 +3,23 @@
  */
 export default {
   "v-14009baa": () => import("E:\\projects\\blog-demo-main\\README.md"),
-  "v-3b7c90bb": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\README.md"),
   "v-0d7f5703": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\algorithm\\bfc.md"),
   "v-58a784b0": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\api.md"),
   "v-275df203": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\engineering\\bfc.md"),
+  "v-3b7c90bb": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\README.md"),
+  "v-3547e182": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\Functor.md"),
   "v-27548729": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\html&css\\bfc.md"),
-  "v-afe97732": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\bfc.md"),
+  "v-f1c4aba6": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\PointFree.md"),
+  "v-f12dd5a2": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\Promise.md"),
+  "v-563da1cb": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\函数式编程.md"),
+  "v-62e246ea": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\函数是一等公民.md"),
+  "v-8b2e7b8e": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\函数组合.md"),
+  "v-5b921ff6": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\异步编程.md"),
+  "v-780704bc": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\柯里化.md"),
+  "v-0aeba294": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\纯函数.md"),
+  "v-1a8a53ac": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\闭包.md"),
+  "v-77d0bcc7": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\js\\高阶函数.md"),
   "v-77b04362": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\more\\bfc.md"),
-  "v-6feaaa63": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\network\\bfc.md"),
-  "v-54eec7e3": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\vue\\bfc.md") 
+  "v-54eec7e3": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\vue\\bfc.md"),
+  "v-6feaaa63": () => import("E:\\projects\\blog-demo-main\\docs\\theme-reco\\network\\bfc.md") 
 }
